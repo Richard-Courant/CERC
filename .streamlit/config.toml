@@ -1,0 +1,20 @@
+[server]
+maxUploadSize = 4000
+headless = true
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[theme]
+primaryColor="#8a858a"
+backgroundColor="#144b9b"
+secondaryBackgroundColor="#d4a336"
+textColor="#ffffff"
+font = "sans serif"
+
+[runner]
+fastReruns = false
+
+[client]
+showSidebarNavigation = true
