@@ -23,7 +23,8 @@ st.title("🎓🧠 Centro Educativo Richard Courant")
 # Logo en la barra lateral
 with st.sidebar:
     imagen_logo = Image.open("assets/cerc_logo.png")
-    st.image(imagen_logo, caption="Richard Courant", use_container_width=True)
+    st.image(imagen_logo, caption="Richard Courant", use_container_width=False)
+
 
 # Espaciado
 st.markdown("---")
@@ -31,9 +32,11 @@ st.markdown("---")
 # Misión
 st.subheader("🎯 Nosotros")
 st.markdown("""
-Proporcionar un acompañamiento académico integral, personalizado y accesible, que impulse el desarrollo intelectual y emocional de los estudiantes. En CERC buscamos despertar el pensamiento crítico, fomentar la curiosidad y acompañar cada proceso educativo con compromiso, empatía y excelencia.
+Buscamos proporcionar un acompañamiento académico integral, personalizado y accesible, que impulse el desarrollo intelectual y emocional de los estudiantes. En CERC buscamos despertar el pensamiento crítico, fomentar la curiosidad y acompañar cada proceso educativo con compromiso, empatía y excelencia.
 """)
 
 # Enviar mensaje a Richar Courant 
 mensaje = "¡Hola! Quiero pedir información sobre los servicios de Richard Courant."
 whatsapp_rcourant(mensaje=mensaje)
+imagen_base = Image.Open("assets/cerc_rcourant.png")
+st.image(imagen_base)
