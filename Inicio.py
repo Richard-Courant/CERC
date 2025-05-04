@@ -40,7 +40,7 @@ Buscamos proporcionar un acompañamiento académico integral, personalizado y ac
 mensaje = "¡Hola! Quiero pedir información sobre los servicios de Richard Courant."
 whatsapp_rcourant(mensaje=mensaje)
 
-filepath_base = r"\workspaces\CERC\assets\cerc_rcourant_base.png"
+filepath_base = r"/assets/cerc_rcourant_base.png"
 
 if os.path.exists(filepath_base): 
     imagen_base = Image.open(filepath_base)
