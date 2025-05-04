@@ -12,7 +12,7 @@ class Cotizador:
             "Regularizacion": 200
         },
         "nivel": {
-            "Universidad": 50,
+            "Universidad": 35,
             "Bachillerato": 25,
             "Secundaria": -25
         },
