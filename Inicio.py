@@ -38,5 +38,5 @@ Buscamos proporcionar un acompañamiento académico integral, personalizado y ac
 # Enviar mensaje a Richar Courant 
 mensaje = "¡Hola! Quiero pedir información sobre los servicios de Richard Courant."
 whatsapp_rcourant(mensaje=mensaje)
-imagen_base = Image.open("assets/cerc_rcourant.png")
+imagen_base = Image.open("/workspaces/CERC/assets/cerc_rcourant_base.png")
 st.image(imagen_base)
